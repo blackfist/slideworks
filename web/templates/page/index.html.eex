@@ -4,6 +4,7 @@
   <p>
     <small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
   </p>
+  <p>In the <%= @theme %> theme.</p>
 </section>
 
 <section>
