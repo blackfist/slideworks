@@ -1,184 +1,268 @@
 <section>
-  <h1>Reveal.js</h1>
-  <h3>The HTML Presentation Framework</h3>
-  <p>
-    <small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-  </p>
-  <p>In the <%= @theme %> theme.</p>
+  <h1>Ruby on Rails</h1>
+  <h3>Introduction and basic stuff</h3>
+  <p>Using the <%= @theme %> theme.</p>
 </section>
 
 <section>
-  <h2>Hello There</h2>
-  <p>
-    reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-  </p>
+  <h2>High-level agenda</h2>
+  <ul>
+    <li>What is Ruby</li>
+    <li>What is Rails</li>
+    <li>What is MVC</li>
+    <li>What are REST and CRUD</li>
+    <li>What is Rails (again) </li>
+    <li>Tour of a new Rails project</li>
+  </ul>
 </section>
 
 <!-- Example of nested vertical slides -->
 <section>
   <section>
-    <h2>Vertical Slides</h2>
-    <p>Slides can be nested inside of each other.</p>
-    <p>Use the <em>Space</em> key to navigate through all slides.</p>
-    <br>
-    <a href="#" class="navigate-down">
-      <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-    </a>
+    <h2>What is Ruby</h2>
   </section>
   <section>
-    <h2>Basement Level 1</h2>
-    <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+    <h2>Just another programming language</h2>
+    <p>As you progress through your career you'll pick up languages like flies
+      on a dead possom. Don't let it freak you out.</p>
   </section>
   <section>
-    <h2>Basement Level 2</h2>
-    <p>That's it, time to go back up.</p>
-    <br>
-    <a href="#/2">
-      <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
-    </a>
-  </section>
-</section>
-
-<section>
-  <h2>Slides</h2>
-  <p>
-    Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-  </p>
-</section>
-
-<section>
-  <h2>Point of View</h2>
-  <p>
-    Press <strong>ESC</strong> to enter the slide overview.
-  </p>
-  <p>
-    Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-  </p>
-</section>
-
-<section>
-  <h2>Touch Optimized</h2>
-  <p>
-    Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-  </p>
-</section>
-
-<section data-markdown>
-  <script type="text/template">
-    ## Markdown support
-
-    Write content using inline or external Markdown.
-    Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-    ```
-    <section data-markdown>
-      ## Markdown support
-
-      Write content using inline or external Markdown.
-      Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-    </section>
-    ```
-  </script>
-</section>
-
-<section>
-  <section id="fragments">
-    <h2>Fragments</h2>
-    <p>Hit the next arrow...</p>
-    <p class="fragment">... to step through ...</p>
-    <p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-    <aside class="notes">
-      This slide has fragments which are also stepped through in the notes window.
-    </aside>
+    <h2>Just another programming language</h2>
+    <p>Focus on learning the fundamentals of <em>programming</em> and then learning
+    a new language is mostly syntax. At least until you start getting into the differences
+    between procedural programming, functional programming, and object-oriented programming.</p>
   </section>
   <section>
-    <h2>Fragment Styles</h2>
-    <p>There's different types of fragments, like:</p>
-    <p class="fragment grow">grow</p>
-    <p class="fragment shrink">shrink</p>
-    <p class="fragment fade-out">fade-out</p>
-    <p class="fragment current-visible">current-visible</p>
-    <p class="fragment highlight-red">highlight-red</p>
-    <p class="fragment highlight-blue">highlight-blue</p>
+    <h2>But people like Ruby</h2>
+    <ul>
+      <li>Emphasis on code readability</li>
+      <li>Interpreted so there's no compiling to wait for</li>
+      <li>Packages reusable code into gems</li>
+    </ul>
   </section>
-</section>
-
-<section id="transitions">
-  <h2>Transition Styles</h2>
-  <p>
-    You can select from different transitions, like: <br>
-    <a href="?transition=none#/transitions">None</a> -
-    <a href="?transition=fade#/transitions">Fade</a> -
-    <a href="?transition=slide#/transitions">Slide</a> -
-    <a href="?transition=convex#/transitions">Convex</a> -
-    <a href="?transition=concave#/transitions">Concave</a> -
-    <a href="?transition=zoom#/transitions">Zoom</a>
-  </p>
-</section>
-
-<section id="themes">
-  <h2>Themes</h2>
-  <p>
-    reveal.js comes with a few themes built in: <br>
-    <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-    <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-  </p>
 </section>
 
 <section>
-  <section data-background="#dddddd">
-    <h2>Slide Backgrounds</h2>
-    <p>
-      Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-    </p>
-    <a href="#" class="navigate-down">
-      <img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-    </a>
+  <section>
+    <h2>What is Rails</h2>
   </section>
-  <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-    <h2>Image Backgrounds</h2>
-    <pre><code>&lt;section data-background="image.png"&gt;</code></pre>
+  <section>
+    <h2>What is Rails</h2>
+    <p>Rails is a framework for building web applications using Ruby</p>
   </section>
-  <section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-    <h2>Tiled Backgrounds</h2>
-    <pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+  <section>
+    <h2>Web applications, you say?</h2>
+    <p>You can use rails to deliver static websites, but that's really not using
+      the power of rails. Rails shines when you've got a database-connected application.</p>
   </section>
-  <section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-    <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-      <h2>Video Backgrounds</h2>
-      <pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-    </div>
+  <section>
+    <h2>Framework, you say?</h2>
+    <p>A collection of functions and solutions to common problems. In this case,
+      useful stuff for building web applications. Just like a framework to a building
+      it creates a base on which to put walls and floors.</p>
   </section>
-  <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-    <h2>... and GIFs!</h2>
+  <section>
+    <h2>Framework, you say?</h2>
+    <p>The framework is opinionated. Rails believes there is a right way to do
+      things and if you don't do them that way you will run into complications. It
+      is kind of like saying that we can all drive faster because we agree to drive
+      on the correct side of the road.</p>
+    <p>Can rails be limiting? Yes, but it's worth it.</p>
+  </section>
+  <section>
+    <h2>Framework, you say?</h2>
+    <p>Rails makes a lot of decisions for you, and that allows you to build
+      an application quickly. It also makes it easier for other people to follow
+      your work.</p>
+  </section>
+  <section>
+    <h2>Framework, you say?</h2>
+    <p>The Rails community is equally opinionated. It has some values that it holds dear
+      but you'll come to see that they're good values that everyone should hold dear.</p>
+    <ul>
+      <li>Convention over configuration</li>
+      <li>DRY: Don't repeat yourself</li>
+      <li>Active Record Pattern</li>
+      <li>Heavy emphasis on testing. TDD and BDD</li>
+    </ul>
   </section>
 </section>
 
-<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-  <h2>Background Transitions</h2>
-  <p>
-    Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-  </p>
-  <pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+<section>
+  <section>
+    <h2>What is MVC?</h2>
+  </section>
+  <section>
+    <h2>What is MVC</h2>
+    <p>Rails is called an MVC framework. The MVC stands for model-view-controller.
+      This describes how code is organized in a rails project and the flow of components
+      when handling a request.</p>
+  </section>
+  <section>
+    <h2>What is MVC</h2>
+    <p>Rails is not the first nor is it the only MVC framework out there. This has
+      turned out to be a really great way of organizing code and handling requests and
+      so it has been used in many places, even outside of web application development.</p>
+  </section>
+  <section>
+    <h2>Model</h2>
+    <p>The model is an object that lives in a database. You could have a user object for
+      people that log into your web site. You could have a post object for blog posts. If you
+      were writing twitter you could have a tweet object. All stored in a database.</p>
+  </section>
+  <section>
+    <h2>View</h2>
+    <p>This is what you're most familiar with from your javascript and php classes.</p>
+    <p>This is the actual html/css/javascript that gets shown to the user</p>
+  </section>
+  <section>
+    <h2>Controller</h2>
+    <p>The glue that binds a model to a view. The controller's job is to get data ready for
+      the view to use. It's also supposed to take data from the user and prepare it for
+      the model. Think of it like a traffic cop and data are the cars.</p>
+  </section>
+  <section>
+    <h2>RCMCV</h2>
+    <p>Rails implementation of the MVC architecture is really more of a RCMCV architecture.</p>
+    <p>router-controller-model-controller-view.</p>
+    <p>Let's discuss</p>
+  </section>
+  <section>
+    <h2>Router</h2>
+    <p>The router is the part of rails that receives a request for a web page and
+      figured out which controller is responsible for servicing that request.</p>
+  </section>
+  <section>
+    <h2>Controller</h2>
+    <p>The controller gets the request from the router and figures out what data
+      are needed to service the request. It will then ask the model for the data.</p>
+  </section>
+  <section>
+    <h2>Model</h2>
+    <p>The model will service the data request by reaching out to the database and
+      getting what was asked for. It then gives that data back to the controller.</p>
+  </section>
+  <section>
+    <h2>Controller (again)</h2>
+    <p>The controller does any other transformations that need to be done with the
+      data before handing it off to the view to be rendered.</p>
+  </section>
+  <section>
+    <h2>View</h2>
+    <p>And then the view renders it like we discussed.</p>
+    <p>So remember, Rails is an MVC framework, but the actual workflow is more
+      like RCMCV</p>
+  </section>
 </section>
 
-<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-  <h2>Background Transitions</h2>
-  <p>
-    You can override background transitions per-slide.
-  </p>
-  <pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+<section>
+  <section>
+    <h2>What are REST and CRUD</h2>
+  </section>
+  <section>
+    <h2>CRUD</h2>
+    <p>This is simply an acronym for the 4 basic operations done on a database
+      record: Create, Read, Update, and Destroy. No new concept here, just a
+      new word.</p>
+  </section>
+  <section>
+    <h2>REST</h2>
+    <p>Representational State Transfer. Maps http verbs to actions in the
+      application. Often those actions are CRUD operations.</p>
+  </section>
+  <section>
+    <h2>HTTP Verbs, you say?</h2>
+    <p>The verbs are commands that an http server understands. Most frequenlty,
+      you'll use the GET command when you want to GET a page from a server.</p>
+  </section>
+  <section>
+    <h2>HTTP Verbs, you say?</h2>
+    <p>But if you want to send data that will change the web server, like adding
+      a new record to a database you can use the POST command to post things to
+      the server.</p>
+    <p>And you can use the DELETE command when you want to destroy a record.</p>
+  </section>
+  <section>
+    <h2>REST</h2>
+    <p>So REST is a way of organizaing the application so that common http verbs
+      map to common functions in your appliation, which are often CRUD operations.</p>
+    <p>A RESTful architecture would map the http GET command to a database READ
+      operation</p>
+  </section>
+  <section>
+    <h2>REST</h2>
+    <p>A RESTful architecture would map http POST to a database CREATE.</p>
+    <p>http PATCH/PUT gets mapped to a database UPDATE</p>
+    <p>http DELETE gets mapped to a database DESTROY</p>
+  </section>
+</section>
+<section>
+  <section>
+    <h2>So what is Rails (again)</h2>
+  </section>
+  <section>
+    <h2>So what is Rails (again)</h2>
+    <p>Earlier I mentioned that Ruby organizes reusable code into gems, which are
+      similar to modules or libraries in other languages. Rails is basically a
+      collection of gems.</p>
+  </section>
+  <section>
+    <h2>ActiveRecord</h2>
+    <p>The ActiveRecord is the M in MVC. It is the Object Relational Mapping (ORM)
+      that rails uses to make database calls easy, fast, and secure.</p>
+    <p>Once you start using ActiveRecord you'll never want to be without it again.</p>
+  </section>
+  <section>
+    <h2>ActionPack</h2>
+    <p>This gem is the C in MVC. It is the gem that provides controllers and request handling.</p>
+  </section>
+  <section>
+    <h2>ActionView</h2>
+    <p>The gem that allows you to embed ruby code into html the same way you can
+      embed php code into html.</p>
+  </section>
+  <section>
+    <h2>And more</h2>
+    <p>There are many other gems that are core components of rails, these are
+      the main gems I want you to know about right now. As you mature as a Rails
+      developer you'll get to know some of the others in detail.</p>
+  </section>
+</section>
+
+<section>
+  <section>
+    <h2>Tour of a rails project</h2>
+  </section>
+  <section>
+    <h2>Tour of a rails project</h2>
+    <p>Let's take a look at a newly-created rails project to see where these
+      components live and how they work together.</p>
+  </section>
+  <section>
+    <h2>New Project</h2>
+    <p>To follow along you'll need a machine that has rails installed already.</p>
+    <pre><code data-trim contenteditable>
+      rails new demonstration
+    </code></pre>
+    <p>This command will create a new rails project named demonstration in a folder named demonstration</p>
+  </section>
+
+</section>
+
+<section>
+  <section>
+    <h2>Alphabet soup</h2>
+    <p>A review of the terms and acronyms we've covered in this module.</p>
+  </section>
+  <section>
+    <h2>REST</h2>
+  </section>
+  <section>
+    <h2>ORM</h2>
+  </section>
+  <section>
+    <h2>MVC</h2>
+  </section>
 </section>
 
 <section>
@@ -202,24 +286,6 @@ node.className += ' roll';
   <p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
 </section>
 
-<section>
-  <h2>Marvelous List</h2>
-  <ul>
-    <li>No order here</li>
-    <li>Or here</li>
-    <li>Or here</li>
-    <li>Or here</li>
-  </ul>
-</section>
-
-<section>
-  <h2>Fantastic Ordered List</h2>
-  <ol>
-    <li>One is smaller than...</li>
-    <li>Two is smaller than...</li>
-    <li>Three!</li>
-  </ol>
-</section>
 
 <section>
   <h2>Tabular Tables</h2>
@@ -251,25 +317,7 @@ node.className += ' roll';
   </table>
 </section>
 
-<section>
-  <h2>Clever Quotes</h2>
-  <p>
-    These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-    &ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-  </p>
-  <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-    &ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-    reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-  </blockquote>
-</section>
 
-<section>
-  <h2>Intergalactic Interconnections</h2>
-  <p>
-    You can link between slides internally,
-    <a href="#/2/3">like this</a>.
-  </p>
-</section>
 
 <section>
   <h2>Speaker View</h2>
@@ -285,51 +333,4 @@ node.className += ' roll';
   <h2>Export to PDF</h2>
   <p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
   <iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-</section>
-
-<section>
-  <h2>Global State</h2>
-  <p>
-    Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-    will be added as a class to the document element when the slide is open. This lets you
-    apply broader style changes, like switching the page background.
-  </p>
-</section>
-
-<section data-state="customevent">
-  <h2>State Events</h2>
-  <p>
-    Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-  </p>
-  <pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-console.log( '"customevent" has fired' );
-} );
-  </code></pre>
-</section>
-
-<section>
-  <h2>Take a Moment</h2>
-  <p>
-    Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-  </p>
-</section>
-
-<section>
-  <h2>Much more</h2>
-  <ul>
-    <li>Right-to-left support</li>
-    <li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-    <li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-    <li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-    <li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-  </ul>
-</section>
-
-<section style="text-align: left;">
-  <h1>THE END</h1>
-  <p>
-    - <a href="http://slides.com">Try the online editor</a> <br>
-    - <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-  </p>
 </section>
