@@ -9,6 +9,8 @@ Here is a [blog post from October 2014](http://learnelixir.com/blog/2014/10/15/d
 with instructions which are not completely working today. Possibly due to changes in
 Phoenix and possibly due to me not executing the instructions properly.
 
+Here is a new tutorial, http://wsmoak.net/2015/07/12/phoenix-and-ecto-from-mix-new-to-heroku.html
+
 To start your new Phoenix application:
 
 1. Install dependencies with `mix deps.get`
